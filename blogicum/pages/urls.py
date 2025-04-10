@@ -5,5 +5,5 @@ app_name = 'pages'
 
 urlpatterns  = [
     path('about/', about, name='about'),
-    path('rules', rules, name='rules'),
+    path('rules/', rules, name='rules'),
 ]
